@@ -14,6 +14,8 @@ It was built entirely with PowerShell and Windows Forms, and works via right-cli
 - Integrates into Windows Explorer context menu
 - No dependencies beyond ffmpeg and ffprobe in PATH
 
+![image](https://github.com/user-attachments/assets/b8cb2e55-ea2b-4d2c-8246-3c20ef66b8f0)
+
 ---
 
 ## 📦 Files
@@ -31,8 +33,10 @@ It was built entirely with PowerShell and Windows Forms, and works via right-cli
 ---
 
 ## 🧰 Installation
+Simple: download and run [`FFmpeg_Video_Cutter_GUI_setup.exe`](FFmpeg_Video_Cutter_GUI_setup.exe)
 
-1. Copy `ffmpeg_gui_cutter.ps1` to:
+Manual:
+1. Copy [`ffmpeg_gui_cutter.ps1`](ffmpeg_gui_cutter.ps1) to:
 
    ```
    C:\Scripts\ffmpeg_gui_cutter.ps1
