@@ -54,6 +54,22 @@ Manual:
 
 ---
 
+## ⚠️ Windows SmartScreen Warning
+
+When launching the `.exe` installer, Windows may show a SmartScreen warning like:
+
+> **"Windows protected your PC"**  
+> **"Unknown publisher"**
+
+This is expected, since the installer is not signed with a commercial certificate.  
+To proceed, click **"More info" → "Run anyway"**.
+
+Alternatively, use the **`.zip` version**, which allows manual installation:
+- Copy `ffmpeg_gui_cutter.ps1` to `C:\Scripts`
+- Apply `add_ffmpeg_context.reg` by double-clicking it
+
+---
+
 ## 🤖 Created with Help From
 
 This tool was designed by the author, with iterative improvements made with assistance from ChatGPT (OpenAI).
