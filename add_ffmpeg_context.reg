@@ -1,0 +1,33 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\FFmpegCut]
+@="Trim video (FFmpeg GUI)"
+"HasLUAShield"=""
+"Icon"="shell32.dll,137"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\FFmpegCut\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Scripts\\ffmpeg_gui_cutter.ps1\" -filePath \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\FFmpegCut]
+@="Trim video (FFmpeg GUI)"
+"HasLUAShield"=""
+"Icon"="shell32.dll,137"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\FFmpegCut\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Scripts\\ffmpeg_gui_cutter.ps1\" -filePath \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\FFmpegCut]
+@="Trim video (FFmpeg GUI)"
+"HasLUAShield"=""
+"Icon"="shell32.dll,137"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\FFmpegCut\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Scripts\\ffmpeg_gui_cutter.ps1\" -filePath \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\FFmpegCut]
+@="Trim video (FFmpeg GUI)"
+"HasLUAShield"=""
+"Icon"="shell32.dll,137"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\FFmpegCut\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Scripts\\ffmpeg_gui_cutter.ps1\" -filePath \"%1\""
